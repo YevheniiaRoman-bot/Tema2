@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator de Glume (API 7)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎭 Official Joke API</h1>
+        
+        <div id="card-gluma" style="display: none;">
+            <img id="avatar-robot" src="" alt="Robot Comediant" class="avatar">
+            
+            <div class="joke-content">
+                <h2 id="setup">...</h2>
+                <h3 id="punchline" class="punchline">...</h3>
+            </div>
+
+            <table class="meta-table">
+                <tr>
+                    <td>ID Glumă:</td>
+                    <td id="joke-id">-</td>
+                </tr>
+                <tr>
+                    <td>Categorie:</td>
+                    <td id="joke-type">-</td>
+                </tr>
+                <tr>
+                    <td>Lungime Setup:</td>
+                    <td id="setup-len">- caractere</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="controls">
+            <p id="status-msg">Apasă pentru o glumă nouă</p>
+            <button id="btn-joke">Spune-mi o glumă!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
